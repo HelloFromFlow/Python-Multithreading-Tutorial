@@ -59,7 +59,7 @@ if mode2 == '=' or '-':
     i2 = input('Input 2:   ')
     i3 = input('Input 3:   ')
     if mode2 == '=':
-        t1 = threading.Thread(target=test.attribute_3, args=(i3,)) # Создание потока для функции, в этот раз с передаваемым аргументом
+        t1 = threading.Thread(target=test.attribute_3, args=(i3,)) # Создание потока для функции, в этот раз с передаваемым аттрибутом
         t1.start()
         t2 = threading.Thread(target=test.attribute_2, args=(i2,))
         t2.start()
