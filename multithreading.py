@@ -29,7 +29,7 @@ class Testament: # The class that has the functions (methods) that will be used 
         print(in1)
 
 
-test = Testament() # Class Exmaple / Variable
+test = Testament() # Object
 
 
 mode = input('Do you want to execute the prints by Multithreading (=) / Basic (-) / Skip (_):   ')
